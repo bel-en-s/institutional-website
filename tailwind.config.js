@@ -4,8 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      display: ['hover', 'focus'],
       colors: {
-        primary: "#f1f5f9",
+        primary: "white",
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
