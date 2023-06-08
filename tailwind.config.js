@@ -7,12 +7,13 @@ module.exports = {
       display: ['hover', 'focus'],
       colors: {
         primary: "white",
-        secondary: "#00f6ff",
+        secondary: "grey",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"]
       },
     },
     screens: {

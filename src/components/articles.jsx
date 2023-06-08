@@ -8,11 +8,17 @@ function Articles() {
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
               <span className="text-primary text-body-color mb-2 block text-lg font-semibold">
-                Our Blogs
+                Medios
               </span>
-              <h2 className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
-               Artículos
-              </h2>
+              <h1>
+                <a
+                  href="javascript:void(0)"
+                  className="text-dark mb-6 inline-block text-4xl font-semibold sm:text-2xl lg:text-2xl xl:text-2xl"
+                  style={{ fontFamily: 'Raleway, sans-serif' }}
+                >
+              Artículos
+                </a>
+              </h1>
               <p className="text-body-color text-base">
                 There are many variations of passages of Lorem Ipsum available but
                 the majority have suffered alteration in some form.
@@ -39,7 +45,7 @@ function Articles() {
                     href="javascript:void(0)"
                     className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    Meet AutoManage, the best AI management tools
+                  Entrada de Blog 1
                   </a>
                 </h3>
                 <p className="text-body-color text-base">
@@ -67,7 +73,7 @@ function Articles() {
                     href="javascript:void(0)"
                     className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    How to earn more money as a wellness coach
+                    Entrada de Blog 2
                   </a>
                 </h3>
                 <p className="text-body-color text-base">
@@ -114,12 +120,17 @@ function Articles() {
               <span className="text-primary mb-2 block text-lg font-semibold">
                 Our Blogs
               </span>
-              <h2 className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
-               Prensa y Charlas
-              </h2>
+              <h1 className="mx-auto mb-10 max-w-[370px]">
+                <a
+                  href="javascript:void(0)"
+                  className="text-dark mb-6 inline-block text-4xl font-semibold sm:text-2xl lg:text-2xl xl:text-2xl"
+                  style={{ fontFamily: 'Raleway, sans-serif' }}
+                >
+            Charlas
+                </a>
+              </h1>
               <p className="text-body-color text-base">
-                There are many variations of passages of Lorem Ipsum available but
-                the majority have suffered alteration in some form.
+               Acá se podrían subir videos, conferencias, etcs
               </p>
             </div>
           </div>
@@ -143,7 +154,7 @@ function Articles() {
                     href="javascript:void(0)"
                     className="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                   >
-                    Meet AutoManage, the best AI management tools
+                  Entrada de Blog 1
                   </a>
                 </h3>
                 <p className="text-body-color text-base">
