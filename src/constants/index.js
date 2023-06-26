@@ -4,10 +4,12 @@ export const navLinks = [
   {
     id: "home",
     title: "Inicio",
+    path: "/hero"
   },
   {
-    id: "features",
-    title: "Artículos",
+    id: "publicaciones",
+    title: "Publicaciones",
+    path: "/publicaciones"
   },
   {
     id: "product",
@@ -16,6 +18,7 @@ export const navLinks = [
   {
     id: "contacto",
     title: "Libros",
+     path: "/publicaciones"
   },
 ];
 

@@ -17,7 +17,7 @@ function Hero() {
 
   return (
     <div className='max-w[1400px] h-[500px] w-full m-auto py-0 px-0 relative'>
-      <div style={{backgroundImage: `url(${slides[2].url})` }}className='w-full h-full rounded-2xl bg-center bg-cover duration'></div>
+      <div style={{backgroundImage: `url(${slides[2].url})` }}className='w-full h-full rounded-2xl bg-center pt-20 bg-cover duration'></div>
     </div>
   );
 }
