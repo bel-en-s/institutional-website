@@ -12,12 +12,16 @@ export const navLinks = [
     path: "/publicaciones"
   },
   {
-    id: "product",
-    title: "Actividad",
+    id: "Docencia",
+    title: "Docencia",
   },
   {
-    id: "contacto",
-    title: "Libros",
+    id: "Cursos y Jornadas",
+    title: "Cursos y Jornadas",
+  },
+  {
+    id: "Género",
+    title: "Género",
      path: "/publicaciones"
   },
 ];

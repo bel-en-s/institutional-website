@@ -4,6 +4,7 @@ import Hero from "./Hero"
 import Footer from './Footer'
 import CV from './CV'
 import Medios from './Medios'
+import Information from "./Information"
 
 
 export {
@@ -12,5 +13,6 @@ export {
     Hero,
     Footer,
     CV,
-    Medios
+    Medios,
+    Information,
 }

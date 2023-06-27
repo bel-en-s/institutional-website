@@ -1,24 +1,37 @@
 import React, {useState} from 'react';
 import { Carousel } from "@material-tailwind/react";
+import landing from "../assets/agus-landing.jpg"
+import { Information } from '.';import { CV } from '.';
+import "../assets/Rische-Light.ttf"
+import "../index.css"
 
  
 function Hero() {
-  const slides = [
-    {
-      url: 'https://unsplash.com/es/fotos/jzz_3jWMzHA'
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1506501139174-099022df5260?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1506501139174-099022df5260?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
-    },
-  ];
+  const titleStyle = {
+    fontFamily: 'Rische',
+    fontWeight: 300,
+    fontStyle: 'normal',
+  };
 
   return (
-    <div className='max-w[1400px] h-[500px] w-full m-auto py-0 px-0 relative'>
-      <div style={{backgroundImage: `url(${slides[2].url})` }}className='w-full h-full rounded-2xl bg-center pt-20 bg-cover duration'></div>
+    <div className='max-w-[1400px] pt-20 mb:block w-full m-auto flex flex-wrap justify-center'>
+      <div className='w-full sm:w-[60%] mt-0 flex justify-left'>
+        <img src={landing} className='h-200 sm:h-[700px]' style={{ objectFit: 'cover', objectPosition: 'center' }}></img>
+      </div>
+      <div className='w-full h-20 sm:w-[40%] sm:mt-80 text-center'>
+        <h1 style={titleStyle} className='text-2xl sm:text-6xl'>AGUSTINA O'DONNELL</h1>
+        <br />
+        <h2 className='text-lg sm:text-xl'>FISCAL</h2>
+        <h2>Jueza del Tribunal Fiscal de la Nación</h2>
+        <h2>Docente en UCES</h2>
+      </div>
+      <Information/>
+      <CV/>
+     
     </div>
+
+     
+
   );
 }
 

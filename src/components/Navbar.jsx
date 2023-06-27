@@ -45,7 +45,7 @@ function Navbar() {
     <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } z-[9999] p-6 bg-white absolute top-0 right-0 mx-auto mt-20 h-200  w-full`}
+          } z-[9999] p-6 bg-white absolute top-10 right-0 mx-auto mt-20 h-200  w-full`}
         >
           <ul className="list-none flex justify-end items-center flex-1 flex-col">
             {navLinks.map((nav, index) => (
